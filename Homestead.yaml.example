@@ -1,0 +1,19 @@
+ip: 192.168.10.10
+memory: 2048
+cpus: 1
+provider: virtualbox
+authorize: ~/.ssh/id_rsa.pub
+keys:
+    - ~/.ssh/id_rsa
+folders:
+    -
+        map: /Users/crynobone/Projects/orchestra/slate
+        to: /home/vagrant/code
+sites:
+    -
+        map: slate.test
+        to: /home/vagrant/code/public
+databases:
+    - slate
+name: slate
+hostname: slate
