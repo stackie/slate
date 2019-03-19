@@ -13,6 +13,7 @@ let tailwindcss = require('tailwindcss');
  */
 
 mix.js('resources/js/orchestra.js', 'public/js')
+  .copyDirectory('node_modules/@fortawesome/fontawesome-free/webfonts', 'public/webfonts')
   .sass('resources/sass/orchestra.scss', 'public/css')
     .options({
       processCssUrls: false,

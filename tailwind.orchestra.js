@@ -203,9 +203,9 @@ module.exports = {
 
   fonts: {
     'sans': [
+      '-apple-system',
       'system-ui',
       'BlinkMacSystemFont',
-      '-apple-system',
       'Segoe UI',
       'Roboto',
       'Oxygen',
@@ -906,7 +906,7 @@ module.exports = {
     borderStyle: ['responsive'],
     borderWidths: ['responsive'],
     cursor: ['responsive'],
-    display: ['responsive'],
+    display: ['responsive', 'group-hover'],
     flexbox: ['responsive'],
     float: ['responsive'],
     fonts: ['responsive'],
