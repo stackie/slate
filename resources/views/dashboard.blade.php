@@ -55,11 +55,16 @@
             <div class="w-full">
                 <!-- header -->
                 <div class="flex justify-between items-center px-6 py-2 bg-white text-blue-zodiac shadow">
-                    <div class="w-1/3">
+                    <div class="w-1/2">
                         <input class="w-full px-2 py-2 appearance-none bg-grey-lighter border-2 border-transparent focus:outline-none focus:bg-white focus:border-blue-zodiac focus:text-blue-zodiac rounded" placeholder="Search..." >
                     </div>
-                    <div>
-                        <img class="inline-block w-10 h-10 rounded-full" src="https://avatars0.githubusercontent.com/u/172966?s=460&v=4" alt="">
+                    <div class="w-1/2 flex justify-end items-center">
+                        <div>
+                           <!-- notification -->
+                        </div>
+                        <div>
+                            <img class="inline-block w-10 h-10 rounded-full" src="https://avatars0.githubusercontent.com/u/172966?s=460&v=4" alt="">
+                        </div>
                     </div>
                 </div>
                 <!-- end header -->
